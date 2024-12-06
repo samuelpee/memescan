@@ -6,4 +6,4 @@
 - Input the contract address of any meme token.
 - Get a quick analysis indicating if the token is a "good buy" or "risky".
 - Clean and user-friendly interface.
-- Future integration possibilities with APIs for live data (e.g., liquidity, market cap, contract verification).
+- Future integration possibility with APIs for live data (e.g., liquidity, market cap, contract verification).
