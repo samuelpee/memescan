@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meme Scan - Meme Token Analyzer</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
     <div class="container">
@@ -23,12 +23,23 @@
         <button onclick="scanToken()">Scan Token</button>
       </div>
 
+      <div class="form-group">
+        <button onclick="connectWallet()">Connect Wallet</button>
+      </div>
+
       <div id="result" class="result hidden">
         <h2>Analysis Result</h2>
         <p id="analysisMessage"></p>
+        <div id="tokenInfo" class="token-info"></div>
+        <div id="riskBreakdown" class="risk-breakdown"></div>
+      </div>
+
+      <div id="recentScans" class="recent-scans">
+        <h3>Recently Scanned Tokens</h3>
+        <ul id="recentTokensList"></ul>
       </div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="/script.js"></script>
   </body>
 </html>
